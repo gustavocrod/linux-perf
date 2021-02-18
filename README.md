@@ -10,7 +10,7 @@ predefinidos para que seja possível coletá-los e processá-los durante o proce
 
 Esses eventos mensuráveis podem ser vistos na figura abaixo e compreendem: Eventos de *hardware*, eventos de *software*, *tracepoints* dinÂmicos e estáticos.
 
-![Interface do perf_events](perf_events_map.png Eventos mensuráveis pela ferramenta perf)
+![Interface do perf_events](perf_events_map.png)
 
 ____
 ### 2. Bancada de testes
