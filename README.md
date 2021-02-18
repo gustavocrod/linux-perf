@@ -32,7 +32,7 @@ predefinidos para que seja possível coletá-los e processá-los durante o proce
 
 Esses eventos mensuráveis podem ser vistos na figura abaixo e compreendem: Eventos de *hardware*, eventos de *software*, *tracepoints* dinâmicos e estáticos.
 
-![Interface do perf_events](perf_events_map.png)
+![Interface do perf_events](images/perf_events_map.png)
 
 ##### 2.1 Eventos
 A ferramenta suporta vários eventos como visto na figura, sendo esses advindos de diferentes fontes. Alguns eventos são *kernel counters* puramente, nesse caso são chamados de **eventos de software**. Por exemplo as trocas de contexto.
@@ -197,7 +197,7 @@ Como **Terceiro teste** vamos aumentar o número da sequencia de fibonacci pesqu
 
 Vamos com 45-ésimo termo da sequencia e o array de 10000 para 25000.
 
-![Primeiras três execuções, mas intercaladas](images/tabela_2_intercalado.png)
+![Primeiras três execuções, mas intercaladas](images/tabela_2_intercalados.png)
 
 Agora é possível visualizar que a intercalação dos código impactou nas page-miss e cache-miss. O número de page-fault oscilou e não apenas decresceu como havia ocorrido antes. O número de execuções ainda é baixo para realizar inferências estatísticas, porém já se percebe o impacto.
 
